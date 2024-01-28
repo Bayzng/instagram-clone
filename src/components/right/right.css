@@ -1,0 +1,21 @@
+.--right-main-page {
+
+    margin-top: 5rem;
+}
+
+.--right-page {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.--right-users {
+    display: flex;
+    gap: 5px;
+}
+
+.--right-page img {
+    width: 3rem;
+    border-radius: 50%;
+    height: 3rem;
+}

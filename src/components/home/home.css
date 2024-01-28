@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.usersPage {
+  display: grid;
+  grid-template-columns: 270px 1fr 270px;
+  height: 100%;
+  overflow: hidden;
+}
+
+#sectionOne {
+  height: 100vh;
+  overflow: scroll;
+  overflow-x: hidden;
+  box-sizing: content-box;
+}
+
+#sectionTwo {
+  height: 100vh;
+  overflow: scroll;
+  overflow-x: hidden;
+  box-sizing: content-box;
+}
+
+#sectionThree {
+  height: 100vh;
+  overflow: scroll;
+  overflow-x: hidden;
+  box-sizing: content-box;
+}
+
+::-webkit-scrollbar {
+  display: none;
+  scroll-behavior: smooth;
+}

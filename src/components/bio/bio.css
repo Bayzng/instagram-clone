@@ -1,0 +1,61 @@
+.bio {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 2rem;
+}
+
+.profile-photo img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+}
+
+.profile-info {
+    margin: 10px;
+}
+
+.name {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.about {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.profile-info button {
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    background-color: red;
+    color: white;
+    /* width: 40px; */
+}
+
+.editForm input {
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+
+.editForm button {
+    margin-top: 15px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+#profilePhotoInput {
+    display: none;
+}
+
+.plus {
+    position: relative;
+    margin-top: 30rem;
+    left: 80%;
+    right: 70%;
+    color: white;
+    font-size: 5rem;
+}

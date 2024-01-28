@@ -1,0 +1,10 @@
+.--gallary-profileImage {
+    display: flex;
+    gap: 35px;
+  }
+  
+  .--gallary-profileImage img {
+    width: 3rem;
+    border-radius: 50%;
+    height: 3rem;
+  }
